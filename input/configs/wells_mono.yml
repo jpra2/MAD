@@ -1,0 +1,18 @@
+
+key_file: 'wells_mono' #default
+gama: 10
+
+Wells:
+  P0:
+    id: 0
+    Prescription: 'Dirichlet'
+    Value: 100.0
+    type_region: 'box'
+    delimitation: [[0.0, 0.0, 0.0], [1.0, 27.0, 27.0]]
+
+  P1:
+    id: 1
+    Prescription: 'Neumann'
+    Value: 1000
+    type_region: 'box'
+    delimitation: [[26.0, 0.0, 0.0], [27.0, 27.0, 27.0]]

@@ -1,0 +1,7 @@
+
+key_file: 'adm_mesh' #default
+
+Rs:
+  r0: 0
+  r1: 0
+  r2: 0
